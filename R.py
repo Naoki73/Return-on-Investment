@@ -33,7 +33,7 @@ class ROI():
                     setattr(self, costs, value)
                     break
                 except ValueError:
-                    print('Sorry, that is not a valid input. Please enter a number.'
+                    print('Sorry, that is not a valid input. Please enter a number.')
 
         self.Expenses = self.tax + self.insurance + self.utilities + self.HOAfees + self.lawnsnow + self.vacancy + self.repairs + self.Capital_Expenditure + self.Property_Management + self.mortgage
         
